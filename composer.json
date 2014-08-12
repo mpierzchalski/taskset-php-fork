@@ -1,0 +1,25 @@
+{
+    "name": "taskset gabage",
+    "authors": [
+        {
+            "name": "Michał Pierzchalski",
+            "email": "michal.pierzchalski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "mpierzchalski/php-fork": "dev-master",
+        "predis/predis": "1.1.*@dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mpierzchalski/php-fork.git"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PHPFork\\": "src/"
+        }
+    }
+}
